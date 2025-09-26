@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-25 13:45:25</sys_created_on>
+        <sys_id>27df4e08935c72106b8cf9f7dd03d67b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1522524_js_dojo_exercises.x_1522524_js_dojo.user</sys_name>
+        <sys_package display_value="JS Dojo" source="x_1522524_js_dojo">434e8a84935c72106b8cf9f7dd03d68d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="JS Dojo">434e8a84935c72106b8cf9f7dd03d68d</sys_scope>
+        <sys_security_acl display_value="x_1522524_js_dojo_exercises">e3df4e08935c72106b8cf9f7dd03d678</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_27df4e08935c72106b8cf9f7dd03d67b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-25 13:45:25</sys_updated_on>
+        <sys_user_role display_value="x_1522524_js_dojo.user" name="x_1522524_js_dojo.user">874e8a84935c72106b8cf9f7dd03d69d</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="JS Dojo">434e8a84935c72106b8cf9f7dd03d68d</application>
+        <file_path/>
+        <instance_id>1eb1762c3b1be6d49aefe747f4e45ab0</instance_id>
+        <instance_name>dev355296</instance_name>
+        <name>sys_security_acl_role_27df4e08935c72106b8cf9f7dd03d67b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-25 13:45:25</sys_created_on><sys_id>27df4e08935c72106b8cf9f7dd03d67b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1522524_js_dojo_exercises.x_1522524_js_dojo.user</sys_name><sys_package display_value="JS Dojo" source="x_1522524_js_dojo">434e8a84935c72106b8cf9f7dd03d68d</sys_package><sys_policy/><sys_scope display_value="JS Dojo">434e8a84935c72106b8cf9f7dd03d68d</sys_scope><sys_security_acl display_value="x_1522524_js_dojo_exercises">e3df4e08935c72106b8cf9f7dd03d678</sys_security_acl><sys_update_name>sys_security_acl_role_27df4e08935c72106b8cf9f7dd03d67b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-25 13:45:25</sys_updated_on><sys_user_role display_value="x_1522524_js_dojo.user" name="x_1522524_js_dojo.user">874e8a84935c72106b8cf9f7dd03d69d</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-971133009</payload_hash>
+        <record_name>x_1522524_js_dojo_exercises.x_1522524_js_dojo.user</record_name>
+        <reverted_from/>
+        <source>0b4e8a84935c72106b8cf9f7dd03d691</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-25 13:45:25</sys_created_on>
+        <sys_id>e3df4e08935c72106b8cf9f7dd03d67e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>199811f21f20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-25 13:45:25</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>6bdf4e086d5c721033f1403e2362127d</update_guid>
+        <update_guid_history>6bdf4e086d5c721033f1403e2362127d:-971133009</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1522524_js_dojo_exercises.x_1522524_js_dojo.user">1810d248935c72106b8cf9f7dd03d687</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-25 13:46:17</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>0052265d355941239908b8e006550a41</sys_id>
+        <sys_metadata>27df4e08935c72106b8cf9f7dd03d67b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1522524_js_dojo_exercises.x_1522524_js_dojo.user</sys_name>
+        <sys_package display_value="JS Dojo" source="x_1522524_js_dojo">434e8a84935c72106b8cf9f7dd03d68d</sys_package>
+        <sys_parent display_value="">e3df4e08935c72106b8cf9f7dd03d678</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="JS Dojo">434e8a84935c72106b8cf9f7dd03d68d</sys_scope>
+        <sys_scope_delete display_value="">1431344bca0a427e9f4967d5ca5c0091</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_27df4e08935c72106b8cf9f7dd03d67b</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_27df4e08935c72106b8cf9f7dd03d67b">e3df4e08935c72106b8cf9f7dd03d67e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-25 13:46:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="6e223e1c9314f2106b8cf9f7dd03d62b" label="Submissions" max_length="40" name="x_1522524_js_dojo_submissions" type="collection">
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Passed"/>
+                <element inactive_on_update="false" label="Draft"/>
+                <element inactive_on_update="false" label="Error"/>
+                <element inactive_on_update="false" label="Failed"/>
+            </choice>
+        </element>
+        <element label="Exercise" max_length="32" name="exercise" reference="x_1522524_js_dojo_exercises" type="reference"/>
+        <element label="Code" max_length="4000" name="code" type="string"/>
+        <element label="User" max_length="32" name="user" reference="sys_user" type="reference"/>
+        <element label="Duration MS" max_length="40" name="duration_ms" type="integer"/>
+        <element label="Submitted On" max_length="40" name="submitted_on" type="glide_date_time"/>
+        <element label="Results (JSON)" max_length="4000" name="results_json" type="string"/>
+        <index name="index">
+            <element name="exercise"/>
+        </index>
+        <index name="index2">
+            <element name="user"/>
+        </index>
+    </element>
+</database>

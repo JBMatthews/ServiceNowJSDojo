@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="34809e48935c72106b8cf9f7dd03d608" label="Exercises" max_length="40" name="x_1522524_js_dojo_exercises" type="collection">
+        <element label="Points" max_length="40" name="points" type="integer"/>
+        <element label="Description" max_length="8000" name="description" type="html"/>
+        <element label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element choice="1" label="Difficulty" max_length="40" name="difficulty" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Hard"/>
+                <element inactive_on_update="false" label="Medium"/>
+                <element inactive_on_update="false" label="Easy"/>
+            </choice>
+        </element>
+        <element label="Starter Code" max_length="4000" name="starter_code" type="string_full_utf8"/>
+        <element label="Tests JSON" max_length="4000" name="tests_json" type="string"/>
+        <element label="Title" max_length="100" name="title" type="string"/>
+        <element label="Slug" max_length="100" name="slug" type="string"/>
+        <element label="Tags" max_length="255" name="tags" type="string"/>
+    </element>
+</database>
