@@ -1,0 +1,25 @@
+{
+  "name": "servicenowjsdojo",
+  "version": "1.0.0",
+  "description": "Practice ServiceNow JS within your PDI",
+  "main": "runner.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JBMatthews/ServiceNowJSDojo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/JBMatthews/ServiceNowJSDojo/issues"
+  },
+  "homepage": "https://github.com/JBMatthews/ServiceNowJSDojo#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "isolated-vm": "^6.0.1"
+  }
+}
